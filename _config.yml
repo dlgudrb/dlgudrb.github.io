@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Design, Art, Artificial Intelligence"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "GYU"
+name                     : "dlgudrb"
 description              : "기술은 거대하고, 내 머리는 작다."
 url                      : "https://dlgudrb.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
