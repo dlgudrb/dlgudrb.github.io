@@ -111,17 +111,17 @@ author:
   email            : "gyubird@gmail.com"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       # url: "https://github.com/dlgudrb"      
     - label: "Email"
-      icon: "fal fa-envelope"
+      icon: "fa-solid fa-envelope"
       # url: "mailto:gyubird@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      icon: "fa-solid fa-house"
+      # url: "https://gyu.im"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "fa-solid fa-at"
+      # url: "https://instagram.com/gyu_bird/"
 
 # Site Footer
 footer:
