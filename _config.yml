@@ -114,7 +114,7 @@ author:
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/dlgudrb"      
     - label: "Email"
-      icon: "fal fa-envelope fa-xs"
+      icon: "fal fa-envelope"
       # url: "mailto:gyubird@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -122,7 +122,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
 
 # Site Footer
 footer:
