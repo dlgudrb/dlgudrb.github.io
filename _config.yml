@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "Design, Art, Artificial Intelligence"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -107,24 +107,18 @@ author:
   name             : "GYU"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "기술은 거대하고, 내 머리는 작다."
-  location         : "Seoul"
-  email            :
+  location         : "Seoul, Korea"
+  email            : "gyubird@gmail.com"
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/dlgudrb"      
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
