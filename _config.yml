@@ -112,16 +112,16 @@ author:
   links:
     - label: "GitHub"
       icon: "fa-brands fa-github"
-      # url: "https://github.com/dlgudrb"      
+      url: "https://github.com/dlgudrb"      
     - label: "Email"
       icon: "fa-solid fa-envelope"
-      # url: "mailto:gyubird@gmail.com"
+      url: "mailto:gyubird@gmail.com"
     - label: "Website"
       icon: "fa-solid fa-house"
-      # url: "https://gyu.im"
+      url: "https://gyu.im"
     - label: "Instagram"
       icon: "fa-solid fa-at"
-      # url: "https://instagram.com/gyu_bird/"
+      url: "https://instagram.com/gyu_bird/"
 
 # Site Footer
 footer:
