@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "기술은 거대하고, 내 머리는 작다."
   location         : "Seoul, Korea"
-  email            : "gyubird@gmail.com"
+  email            : # "gyubird@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
