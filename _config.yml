@@ -114,14 +114,14 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gyubird@gmail.com"
     - label: "Website"
-      icon: #"fas fa-fw fa-home"
-      url: #"https://gyu.im"
+      icon: # "fas fa-fw fa-home"
+      url: # "https://gyu.im"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dlgudrb"   
     - label: "Instagram"
-      icon: "fas fa-fw fa-at"
-      url: "https://instagram.com/gyu_bird/"
+      icon: # "fas fa-fw fa-at"
+      url: # "https://instagram.com/gyu_bird/"
 
 # Site Footer
 footer:
