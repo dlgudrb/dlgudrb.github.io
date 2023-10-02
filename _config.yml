@@ -111,7 +111,7 @@ author:
   email            : "gyubird@gmail.com"
   links:
     - label: "GitHub"
-      icon: "fa-brands fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/dlgudrb"      
     - label: "Email"
       icon: "fa-solid fa-envelope"
