@@ -114,13 +114,13 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/dlgudrb"      
     - label: "Email"
-      icon: "fa-solid fa-envelope"
+      icon: "fas fa-envelope"
       url: "mailto:gyubird@gmail.com"
     - label: "Website"
-      icon: "fa-solid fa-house"
+      icon: "fas fa-home"
       url: "https://gyu.im"
     - label: "Instagram"
-      icon: "fa-solid fa-at"
+      icon: "fas fa-at"
       url: "https://instagram.com/gyu_bird/"
 
 # Site Footer
