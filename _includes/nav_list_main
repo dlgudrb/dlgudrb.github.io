@@ -14,21 +14,21 @@
         <ul>                
           {% for category in site.categories %}
               {% if category[0] == "review" %}
-               📝 <li><a href="/categories/review" class="">Review ({{category[1].size}})</a></li>
+               <li>📝 <a href="/categories/{{ category[0] }}" class="">Review ({{category[1].size}})</a></li>
               {% endif %}
           {% endfor %}
         </ul>
         <ul>                
           {% for category in site.categories %}
               {% if category[0] == "ref" %}
-               📌 <li><a href="/categories/ref" class="">References ({{category[1].size}})</a></li>
+               <li>📌 <a href="/categories/{{ category[0] }}" class="">References ({{category[1].size}})</a></li>
               {% endif %}
           {% endfor %}
         </ul>
         <ul>                
           {% for category in site.categories %}
               {% if category[0] == "project" %}
-               💡 <li><a href="/categories/project" class="">Projects ({{category[1].size}})</a></li>
+               <li>💡 <a href="/categories/{{ category[0] }}" class="">Projects ({{category[1].size}})</a></li>
               {% endif %}
           {% endfor %}
         </ul>
