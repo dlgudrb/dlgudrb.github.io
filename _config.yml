@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "dlgudrb/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "GYU"
-  avatar           : "/images/chamsae.png"
+  avatar           : # "/images/chamsae.png"
   bio              : "기술은 거대하고, 내 머리는 작다."
   location         : "Seoul, Korea"
   email            : # "gyubird@gmail.com"
