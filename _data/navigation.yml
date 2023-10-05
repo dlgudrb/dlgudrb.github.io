@@ -14,10 +14,10 @@ main:
 sidebar-category:
   - title: "📝 Review"
     url: "/review"
-    category: "📝 Review"
+    category: "review"
   - title: "📌 References"
     url: "/ref"
-    category: "📌 References"
+    category: "ref"
   - title: "🚀 Projects"
     url: "/project"
-    category: "🚀 Projects"
+    category: "project"
