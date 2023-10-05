@@ -1,7 +1,7 @@
 ---
 title: "📌 References"
 layout: archive
-permalink: /categories/ref
+permalink: /ref
 author_profile: true
 ---
 

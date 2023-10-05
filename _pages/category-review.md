@@ -1,7 +1,7 @@
 ---
 title: "📝 Review"
 layout: archive
-permalink: /categories/review
+permalink: /review
 author_profile: true
 ---
 

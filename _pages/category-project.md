@@ -1,7 +1,7 @@
 ---
 title: "🚀 Projects"
 layout: archive
-permalink: /categories/project
+permalink: /project
 author_profile: true
 ---
 
