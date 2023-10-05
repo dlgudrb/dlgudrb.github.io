@@ -493,11 +493,10 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5-5; // 카테고리 글씨 크기 조절
   font-weight: bold;
   text-transform: none;
   border-bottom: 1px solid $border-color;
-  font-size: 0.9em; // 카테고리 글씨 크기 조절
 }
 
 /*
