@@ -25,13 +25,13 @@
                 {% endif %}
               {% endfor %}
             </span>
-        📁 <span class="nav__sub-title">
+        💡 <span class="nav__sub-title">
               {% for category in site.categories %}
                 {% if category[0] == "project" %}
                   <a href="/categories/project" class="">Projects ({{category[1].size}})</a>
                 {% endif %}
               {% endfor %}
-            </span>
+           </span>
       </li>
   </ul>
 </nav>
