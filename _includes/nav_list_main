@@ -12,25 +12,31 @@
       </li>
       <li>
         <ul>                
-          {% for category in site.categories %}
+          <li>📝 <a href="/categories/review" class="">Review 
+            {% for category in site.categories %}
               {% if category[0] == "review" %}
-               <li>📝 <a href="/categories/{{ category[0] }}" class="">Review ({{category[1].size}})</a></li>
+              ({{category[1].size}})
               {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </a></li>
         </ul>
         <ul>                
-          {% for category in site.categories %}
+          <li>📌 <a href="/categories/ref" class="">References 
+            {% for category in site.categories %}
               {% if category[0] == "ref" %}
-               <li>📌 <a href="/categories/{{ category[0] }}" class="">References ({{category[1].size}})</a></li>
+              ({{category[1].size}})
               {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </a></li>
         </ul>
         <ul>                
-          {% for category in site.categories %}
+          <li>💡 <a href="/categories/project" class="">Projects 
+            {% for category in site.categories %}
               {% if category[0] == "project" %}
-               <li>💡 <a href="/categories/{{ category[0] }}" class="">Projects ({{category[1].size}})</a></li>
+              ({{category[1].size}})
               {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </a></li>
         </ul>
       </li>
   </ul>
