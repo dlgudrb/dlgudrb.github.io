@@ -3,7 +3,7 @@ title: "📝 Review"
 layout: archive
 permalink: categories/review
 author_profile: true
-sidebar-category:
+sidebar:
   nav: "sidebar-category"
 ---
 

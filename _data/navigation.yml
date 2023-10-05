@@ -5,7 +5,7 @@ main:
   # - title: "About"
   #   url: https://dlgudrb.github.io/about/
   - title: "About"
-    url: /_pages/about.md
+    url: /about/
   - title: "Tag"
     url: /tags/
   # - title: "Sitemap"
@@ -19,7 +19,7 @@ sidebar-category:
   - title: "📌 References"
     url: "/ref"
     category: "ref"
-    
+
   - title: "🚀 Projects"
     url: "/project"
     category: "project"

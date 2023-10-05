@@ -3,7 +3,7 @@ title: "📌 References"
 layout: archive
 permalink: categories/ref
 author_profile: true
-sidebar-category:
+sidebar:
   nav: "sidebar-category"
 ---
 
