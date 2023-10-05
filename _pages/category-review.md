@@ -3,6 +3,8 @@ title: "Review"
 layout: archive
 permalink: /review
 author_profile: true
+sidebar-category:
+  nav: "sidebar-category"
 ---
 
 

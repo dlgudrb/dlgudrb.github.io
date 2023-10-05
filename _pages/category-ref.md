@@ -3,6 +3,8 @@ title: "References"
 layout: archive
 permalink: /ref
 author_profile: true
+sidebar-category:
+  nav: "sidebar-category"
 ---
 
 
