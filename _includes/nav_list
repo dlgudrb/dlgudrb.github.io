@@ -17,9 +17,9 @@
           {% endif %}
         {% endfor %}
         {% if nav.url %}
-          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title" style="font-weight: 550;">{{ nav.title }} ({{ post_cnt }})</span></a>
+          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title" style="font-weight: 500;">{{ nav.title }} ({{ post_cnt }})</span></a>
         {% else %}
-          <span class="nav__sub-title" style="font-weight: 550;">{{ nav.title }} ({{ post_cnt }})</span>
+          <span class="nav__sub-title" style="font-weight: 500;">{{ nav.title }} ({{ post_cnt }})</span>
         {% endif %}
 
         {% if nav.children != null %}
