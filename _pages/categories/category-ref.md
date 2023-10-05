@@ -1,7 +1,7 @@
 ---
-title: "References"
+title: "📌 References"
 layout: archive
-permalink: /ref
+permalink: categories/ref
 author_profile: true
 sidebar-category:
   nav: "sidebar-category"

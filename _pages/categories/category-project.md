@@ -1,12 +1,12 @@
 ---
-title: "Review"
+title: "🚀 Projects"
 layout: archive
-permalink: /review
+permalink: categories/project
 author_profile: true
 sidebar-category:
   nav: "sidebar-category"
 ---
 
 
-{% assign posts = site.categories.review %}
+{% assign posts = site.categories.project %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
