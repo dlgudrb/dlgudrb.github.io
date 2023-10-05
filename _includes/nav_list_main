@@ -14,21 +14,21 @@
         📝 <span class="nav__sub-title">
               {% for category in site.categories %}
                 {% if category[0] == "reveiw" %}
-                  <li><a href="/categories/review" class="">Review ({{category[1].size}})</a></li>
+                  <a href="/categories/review" class="">Review ({{category[1].size}})</a>
                 {% endif %}
               {% endfor %}
             </span>
         📌 <span class="nav__sub-title">
               {% for category in site.categories %}
                 {% if category[0] == "ref" %}
-                  <li><a href="/categories/ref" class="">References ({{category[1].size}})</a></li>
+                  <a href="/categories/ref" class="">References ({{category[1].size}})</a>
                 {% endif %}
               {% endfor %}
             </span>
         📁 <span class="nav__sub-title">
               {% for category in site.categories %}
                 {% if category[0] == "project" %}
-                  <li><a href="/categories/project" class="">Projects ({{category[1].size}})</a></li>
+                  <a href="/categories/project" class="">Projects ({{category[1].size}})</a>
                 {% endif %}
               {% endfor %}
             </span>
