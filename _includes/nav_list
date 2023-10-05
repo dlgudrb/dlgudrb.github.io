@@ -5,19 +5,11 @@
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
-
-   {% assign total_posts = 0 %}
-   {% for nav in navigation %}
-     {% for category in site.categories %}
-       {% if category[0] == nav.category %}
-         {% assign total_posts = total_posts | plus: category[1].size %}
-       {% endif %}
-     {% endfor %}
-   {% endfor %}
-   <span class="nav__subtitle" style="font-weight: 650;">Total Posts in All Categories: {{ sum }}</span>
- 
-  <hr style="border: none; height: 1px; background-color: rgb(100, 100, 100);">
   <ul class="nav__items">
+
+    <li><span class="nav__subtitle" style="font-weight: 600;">📁 Total Contents ({{ sum }})</span></li>
+    <hr style="border: none; height: 1px; background-color: rgb(100, 100, 100);">
+
     {% for nav in navigation %}
       <li>
         {% assign post_cnt = 0 %}
