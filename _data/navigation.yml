@@ -12,9 +12,9 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "Review"
+  - title: "📝 Review"
     url: "categories/review"
-  - title: "References"
+  - title: "📌 References"
     url: "categories/ref"
-  - title: "Projects"
+  - title: "🚀 Projects"
     url: "categories/project"
