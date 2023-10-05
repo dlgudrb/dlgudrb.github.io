@@ -1,5 +1,5 @@
 ---
-title: "References"
+title: "ref"
 layout: archive
 permalink: categories/ref
 author_profile: true

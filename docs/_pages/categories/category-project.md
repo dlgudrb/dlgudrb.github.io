@@ -1,5 +1,5 @@
 ---
-title: "projects"
+title: "project"
 layout: archive
 permalink: categories/project
 author_profile: true
