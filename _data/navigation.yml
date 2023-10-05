@@ -13,11 +13,11 @@ main:
 
 sidebar-category:
   - title: "📝 Review"
-    url: "/categories/review"
+    url: "/review"
     category: "review"
   - title: "📌 References"
-    url: "/categories/ref"
+    url: "/ref"
     category: "ref"
   - title: "🚀 Projects"
-    url: "/categories/project"
+    url: "/project"
     category: "project"
