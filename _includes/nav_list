@@ -12,7 +12,7 @@
       <li>
         {% assign post_cnt = 0 %}
         {% for category in site.categories %}
-          {% if category[0] == category %}
+          {% if category[0] == nav.category %}
             {% assign post_cnt = category[1].size %}
           {% endif %}
         {% endfor %}

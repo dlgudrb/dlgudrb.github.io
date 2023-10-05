@@ -15,9 +15,11 @@ sidebar-category:
   - title: "📝 Review"
     url: "/review"
     category: "review"
+
   - title: "📌 References"
     url: "/ref"
     category: "ref"
+    
   - title: "🚀 Projects"
     url: "/project"
     category: "project"
