@@ -4,9 +4,17 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://dlgudrb.github.io/about/
-  # - title: "Post"
-  #   url: https://dlgudrb.github.io/categories/
-  # - title: "Tag"
-  #   url: https://dlgudrb.github.io/tags/
+  - title: "About"
+    url: /about/_pages/about.md
+  - title: "Tag"
+    url: /tags/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: "Review"
+    url: "categories/review"
+  - title: "References"
+    url: "categories/ref"
+  - title: "Projects"
+    url: "categories/project"
