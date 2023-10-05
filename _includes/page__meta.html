@@ -5,12 +5,15 @@
       {% assign date = document.date %}
       <span class="page__meta-date">
         <i class="far {% if include.type == 'grid' and document.date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
+        {% comment %}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+        {% endcomment %}
+        {% assign date_format = "%Y년 %m월 %d일" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
       </span>
     {% endif %}
 
-    {# 
+    {% comment %}
     {% if document.read_time and document.date %}<span class="page__meta-sep"></span>{% endif %}
 
     {% if document.read_time %}
@@ -28,6 +31,6 @@
         {% endif %}
       </span>
     {% endif %}
-    #}
+    {% endcomment %}
   </p>
 {% endif %}
