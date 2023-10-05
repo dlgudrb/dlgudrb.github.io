@@ -12,14 +12,14 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "Total"
-    childeren:
-      - title: "📝 Review"
+   - title: "📝 Review"
         url: "/review"
         category: "review"
-      - title: "📌 References"
+
+   - title: "📌 References"
         url: "/ref"
         category: "ref"
-      - title: "🚀 Projects"
+        
+   - title: "🚀 Projects"
         url: "/project"
         category: "project"
