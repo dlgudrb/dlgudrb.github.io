@@ -150,7 +150,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  font-size: 0.9em; // 프로필 문구 크기 조절
+  font-size: 0.95em; // 프로필 문구 크기 조절
 
   @include breakpoint($large) {
     display: block;
@@ -176,7 +176,7 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
-  font-size: 1em; // 프로필 문구 크기 조절
+  font-size: 1.05em; // GYU 크기 조절
 }
 
 .author__bio {
