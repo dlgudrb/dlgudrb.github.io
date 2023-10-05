@@ -1,0 +1,37 @@
+<!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span>전체 글 수</span> <span>{{sum}}</span> <span>개</span> 
+      </li>
+      <li>
+        📝 <span class="nav__sub-title">
+              {% for category in site.categories %}
+                {% if category[0] == "reveiw" %}
+                  <li><a href="/categories/review" class="">Review ({{category[1].size}})</a></li>
+                {% endif %}
+              {% endfor %}
+            </span>
+        📌 <span class="nav__sub-title">
+              {% for category in site.categories %}
+                {% if category[0] == "ref" %}
+                  <li><a href="/categories/ref" class="">References ({{category[1].size}})</a></li>
+                {% endif %}
+              {% endfor %}
+            </span>
+        📁 <span class="nav__sub-title">
+              {% for category in site.categories %}
+                {% if category[0] == "project" %}
+                  <li><a href="/categories/project" class="">Projects ({{category[1].size}})</a></li>
+                {% endif %}
+              {% endfor %}
+            </span>
+      </li>
+  </ul>
+</nav>
