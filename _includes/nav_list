@@ -8,7 +8,6 @@
   <ul class="nav__items">
 
     <li><span class="nav__sub-title" style="font-weight: 600;">📂 Total Contents ({{ sum }})</span></li>
-    <hr style="border: none; height: 1px; background-color: rgb(100, 100, 100);">
 
     {% for nav in navigation %}
       <li>
