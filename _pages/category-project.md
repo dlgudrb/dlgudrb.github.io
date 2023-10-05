@@ -1,5 +1,5 @@
 ---
-title: "🚀 Projects"
+title: "Projects"
 layout: archive
 permalink: /project
 author_profile: true
