@@ -1,5 +1,5 @@
 ---
-title: "review"
+title: "📝 Review"
 layout: archive
 permalink: /categories/review
 author_profile: true
