@@ -6,6 +6,7 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <li style="font-weight: 600;"> 전체 글 수 {{sum}} 개 </li>
+  <hr style="border: none; height: 2px; background-color: rgb(0, 0, 0);">
   <ul class="nav__items">
     {% for nav in navigation %}
       <li>
