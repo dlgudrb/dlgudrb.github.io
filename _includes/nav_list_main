@@ -10,22 +10,28 @@
       <li>
             📂 <span>전체 글 수</span> <span>{{sum}}</span> <span>개</span> 
       </li>
-      {% for category in site.categories %}
-        {% if category[0] == "review" %}
       <li>
-        📝 <a href="/categories/review" class="nav__sub-title">Review ({{category[1].size}})</a>
+        <ul>                
+          {% for category in site.categories %}
+              {% if category[0] == "review" %}
+               📝 <li><a href="/categories/review" class="">Review ({{category[1].size}})</a></li>
+              {% endif %}
+          {% endfor %}
+        </ul>
+        <ul>                
+          {% for category in site.categories %}
+              {% if category[0] == "ref" %}
+               📌 <li><a href="/categories/ref" class="">References ({{category[1].size}})</a></li>
+              {% endif %}
+          {% endfor %}
+        </ul>
+        <ul>                
+          {% for category in site.categories %}
+              {% if category[0] == "project" %}
+               💡 <li><a href="/categories/project" class="">Projects ({{category[1].size}})</a></li>
+              {% endif %}
+          {% endfor %}
+        </ul>
       </li>
-        {% endif %}
-        {% if category[0] == "ref" %}
-      <li>
-        📌 <a href="/categories/ref" class="nav__sub-title">References ({{category[1].size}})</a>
-      </li>
-        {% endif %}
-        {% if category[0] == "project" %}
-      <li>
-        💡 <a href="/categories/project" class="nav__sub-title">Projects ({{category[1].size}})</a>
-      </li>
-        {% endif %}
-      {% endfor %}
   </ul>
 </nav>
