@@ -1,9 +1,8 @@
 ---
 title: "project"
 layout: archive
-permalink: categories/project
+permalink: /project
 author_profile: true
-sidebar_main: true
 ---
 
 

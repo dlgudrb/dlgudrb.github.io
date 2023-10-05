@@ -1,9 +1,8 @@
 ---
 title: "review"
 layout: archive
-permalink: categories/review
+permalink: /review
 author_profile: true
-sidebar_main: true
 ---
 
 

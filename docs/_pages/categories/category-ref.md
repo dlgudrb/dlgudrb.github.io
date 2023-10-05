@@ -1,9 +1,8 @@
 ---
 title: "ref"
 layout: archive
-permalink: categories/ref
+permalink: /ref
 author_profile: true
-sidebar_main: true
 ---
 
 

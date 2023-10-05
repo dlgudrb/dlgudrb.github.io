@@ -13,8 +13,8 @@ main:
 
 sidebar-category:
   - title: "📝 Review"
-    url: "categories/review"
+    url: "/review"
   - title: "📌 References"
-    url: "categories/ref"
+    url: "/ref"
   - title: "🚀 Projects"
-    url: "categories/project"
+    url: "/project"
